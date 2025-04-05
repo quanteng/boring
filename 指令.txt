@@ -1,0 +1,18 @@
+conda create -p D:\YYKJ\AAAA\py3\GIS_TOOL_GIS_PlanBORING\condaenv python=3.10
+conda activate D:\YYKJ\AAAA\py3\GIS_TOOL_PlanBORING\condaenv
+conda install pyside6 
+conda install geopandas
+conda install matplotlib
+
+conda install contextily
+
+conda install pyproj
+
+conda install shapely
+
+ 
+conda deactivate
+conda remove --prefix D:\YYKJ\AAAA\py3\GIS_TOOL_PlanBORING\condaenv --all
+
+conda install pyinstaller
+pyinstaller D:\YYKJ\AAAA\py3\GIS_TOOL_PlanBORING\PlanBORING.spec
